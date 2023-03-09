@@ -12158,6 +12158,10 @@ footer.home-footer .toc a, footer.home-footer .toc .container > div {
   height: 1.5em;
 }
 
+#guide-toc.sticky-top {
+  top: 100px;
+}
+
 @media (max-width: 992px) {
   #top-nav .navbar-brand {
     order: 0;

@@ -1,8 +1,8 @@
 topnav:
 - url: /
   title: Home
-- url: /facilitate
-  title: Facilitate
+- url: /guide
+  title: Guide
 - url: /courses
   title: Learning Resources
 

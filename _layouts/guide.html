@@ -1,0 +1,29 @@
+---
+layout: base
+---
+
+<div class="container">
+  <h1>THIS IS A GUIDE</h1>
+
+  <div class="row">
+    <div class="col-8">
+      <div data-bs-spy="scroll" data-bs-target="#guide-toc" data-bs-offset="0" data-bs-smooth-scroll="true">
+
+        {% for section in site.guide %}
+        <h2 id="guide-section-{{forloop.index }}">{{ section.title }} <a href="#guide-section-{{forloop.index}}">#</a></h2>
+        {{ section.content }}
+        {% endfor %}
+
+      </div>
+    </div>
+    <div class="col-4">
+      <div id="guide-toc" class="d-flex flex-column sticky-top">
+        {% for section in site.guide %}
+        <a href="#guide-section-{{forloop.index }}">{{ section.title }}</a>
+        {% endfor %}
+      </div>
+    </div>
+  </div>
+
+</div>
+

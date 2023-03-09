@@ -1,6 +1,8 @@
 title: P2PU Uganda
 description: P2PU learning circle team template
 language: en
+collections:
+  - guide
 exclude:
   - p2pu-components
   - p2pu-theme
