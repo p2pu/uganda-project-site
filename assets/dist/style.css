@@ -12122,6 +12122,7 @@ footer.home-footer .contact-info .links {
 footer.home-footer .social {
   display: flex;
   align-items: center;
+  justify-content: center;
 }
 footer.home-footer .content {
   display: flex;

@@ -2,7 +2,7 @@
   <div class="contact-info">
     <div class="container">
       <div class="row links">
-        <div class="col social">
+        <div class="col social justify-contents-center">
           <div class="content">
             {% for link in site.data.footer.socials %}
             <div class="social-link">
@@ -12,14 +12,6 @@
             </div>
             {% endfor %}
           </div>
-        </div>
-        <div class="col logos">
-          <a href="https://ec.europa.eu/programmes/erasmus-plus/node_en">
-            <img src="{{ site.baseurl }}/assets/img/erasmus-logo.svg" alt="Erasmus+ logo">
-          </a>
-          <a href="{{site.data.footer.project_link}}">
-            <img src="{{ site.baseurl }}/assets/img/lc-logo.png" alt="Learning circles logo">
-          </a>
         </div>
       </div>
     </div>
