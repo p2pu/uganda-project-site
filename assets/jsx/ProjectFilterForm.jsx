@@ -4,7 +4,7 @@ import { t } from 'ttag';
 const ProjectFilterForm = (props) => {
 
   const handleChange = (event) => {
-    props.updateQueryParams({projectResources: event.currentTarget.checked});
+    props.updateQueryParams({keywords: event.currentTarget.checked?"uganda":null});
   }
 
   return (
@@ -18,7 +18,7 @@ const ProjectFilterForm = (props) => {
               id="projectResources-input"
               name="projectResources"
               type="checkbox"
-              checked={Boolean(props.projectResources)}
+              checked={Boolean(props.keywords=='uganda')}
               onChange={handleChange}
             />
             <label className="form-check-label" htmlFor="projectResources">Show curated resources for this project</label>
