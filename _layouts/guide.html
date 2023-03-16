@@ -6,7 +6,15 @@ layout: base
   <h1>THIS IS A GUIDE</h1>
 
   <div class="row">
-    <div class="col-8">
+    <div class="col-4 col-print-12">
+      <div id="guide-toc" class="d-flex flex-column sticky-top">
+        {% for section in site.guide %}
+        <a href="#guide-section-{{forloop.index }}">{{ section.title }}</a>
+        {% endfor %}
+      </div>
+    </div>
+
+    <div class="col-8 col-print-12">
       <div data-bs-spy="scroll" data-bs-target="#guide-toc" data-bs-offset="0" data-bs-smooth-scroll="true">
 
         {% for section in site.guide %}
@@ -14,13 +22,6 @@ layout: base
         {{ section.content }}
         {% endfor %}
 
-      </div>
-    </div>
-    <div class="col-4">
-      <div id="guide-toc" class="d-flex flex-column sticky-top">
-        {% for section in site.guide %}
-        <a href="#guide-section-{{forloop.index }}">{{ section.title }}</a>
-        {% endfor %}
       </div>
     </div>
   </div>

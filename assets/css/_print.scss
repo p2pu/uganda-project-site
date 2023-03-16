@@ -1,0 +1,15 @@
+@media print {
+
+  img {
+    max-width: 100%;
+  }
+
+  @page { margin: 0mm 0mm 0mm 0mm;
+            size:8in 9.5in;
+            }
+
+  .col-print-12{
+       width:100% !important;
+   }
+
+}
