@@ -3,13 +3,63 @@ layout: base
 ---
 <div class="page-wrapper">
   {% include {{page.header}} page=page %}
-  <section id="learning-circles" class="container search">
+  <section id="learning-circles" class="container search pb-0">
     <div class="row">
       <div class="col-12 mb-3">
         {{ content }}
       </div>
     </div>
   </section>
+
+  <section id="stories" class="container pt-0">
+    <div class="row">
+      <div class="col">
+        <h2>Case studies and testimonials</h2>
+      </div>
+    </div>
+    <div class="row">
+        {% assign cards = site.data.stories %}
+        {% for card in cards %}						
+        <article class="col-12 col-md-4 d-flex">
+          {% if card.type == 'testimonial'  %}	
+          <div class="card-testimonial card row g-0 p-3 learner">
+            <div class="card-body col-12 quote">
+              <q>{{ card.quote }}</q>
+            </div>
+            <div class="card-footer attribution col-12">
+              <div class="row">
+                <div class="image col-12 col-md-4 pe-md-0">
+                  <img class="mx-auto mx-md-0" src="{{ card.image }}" alt="{{ card.name }}">
+                </div>
+                <div class="text col-12 col-md-8 text-center text-md-start">
+                  <span class="name fw-bold">{{ card.name }}</span>
+                  <span class="position fst-italic small">{{ card.role }}</span>
+                  <span class="organization small">{{ card.organization }}</span>
+                </div>
+              </div>
+            </div>
+          </div>
+          {% else %}
+          <div class="card card-case-study cover-link">
+            <a href="{{ card.link }}" target="_blank"></a>
+            <div class="card-image">
+              {% if card.img contains 'http'  %}	
+              <img src="{{ card.image }}" alt="{{ card.title }}" class="card-img-top" />
+              {% else %}
+              <img src="{{ site.baseurl }}{{ card.image }}" alt="{{ card.title }}" class="card-img-top" />
+              {% endif %}
+            </div>
+            <div class="card-header">
+              <h3 class="card-title">{{ card.title }}</h3>
+            </div>
+          </div>
+
+          {% endif %}							
+        </article>
+
+        {% endfor %}						  						
+    </div>
+
+  </section>
 </div>
-<!-- -->
 
