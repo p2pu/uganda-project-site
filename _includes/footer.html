@@ -2,7 +2,7 @@
   <div class="contact-info">
     <div class="container">
       <div class="row links">
-        <div class="col social justify-contents-center">
+        <div class="col social">
           <div class="content">
             {% for link in site.data.footer.socials %}
             <div class="social-link">
@@ -12,6 +12,13 @@
             </div>
             {% endfor %}
           </div>
+        </div>
+        <div class="col logos">
+          {% for logo in site.data.footer.logos %}
+          <a href="{{logo.url}}">
+            <img src="{{ logo.image_url }}" alt="{{ logo.alt_text }}">
+          </a>
+          {% endfor %}
         </div>
       </div>
     </div>

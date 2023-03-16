@@ -9,6 +9,19 @@ socials:
     url: https://www.facebook.com/P2PUniversity
     icon_class: fa fa-facebook
 project_link: https://www.p2pu.org/
+logos:
+  - image_url: /assets/img/maendeleo-foundation-log-web.png
+    alt_text: Maendeleo Foundation logo
+    url: https://maendeleofoundation.org
+  - image_url: /assets/img/EIFL_BTag_BG_Blue.png
+    alt_text: EIFL logo
+    url: https://www.eifl.net/
+  - image_url: /assets/img/nlu-logo.png
+    alt_text: NLU logo
+    url: https://nlu.go.ug/
+  - image_url: /assets/img/logo-enabel.png
+    alt_text: Enabel logo
+    url: https://www.enabel.be/
 license: Unless otherwise noted, all the materials on this site are licensed under CC BY-SA 4.0.
 about_orgs: P2PU is a U.S. 501(c)3 registered in California.
 tos: 
