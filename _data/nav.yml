@@ -5,6 +5,9 @@ topnav:
   title: Guide
 - url: /courses
   title: Learning Resources
+- url: /learning-circles
+  title: Learning Circles
+
 
 org:
     url: https://hog.warts/

@@ -65,7 +65,7 @@ class App extends React.Component {
         <div className={this.state.selectedLearningCircle?'d-none':''}>
           <SearchProvider
             origin="https://learningcircles.p2pu.org"
-            initialState={{team_id: 28}}
+            initialState={{team_id: 44}}
             searchSubject={'learningCircles'}
             locale="en"
             defaultImageUrl="/assets/img/p2pu-ogimg-default.jpg"
