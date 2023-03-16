@@ -8,7 +8,7 @@ header_video: https://www.youtube.com/embed/bQqmIS7WQa8
 hero: |
   ## Free, community learning programs across Uganda
 
-  Join your neighbors at the library to learn something together. Learning circles meet weekly for 4-8 weeks, and cover a wide range of topics. You can [view active learning circles](https://www.p2pu.org/uganda), or [start your own](/guide)!
+  Join your neighbors at the library to learn something together. Learning circles meet weekly for 4-8 weeks, and cover a wide range of topics. You can [view active learning circles](/learning-circles), or [start your own](/guide)!
 image_attribution: ""
 bundles:
 - style
