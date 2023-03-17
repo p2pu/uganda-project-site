@@ -19,7 +19,12 @@ render(
     searchSubject={'courses'}
     origin={origin}
     onSelectResult={handleSelectResult}
-    initialState={{languages:['en']}}
+    initialState={
+      {
+        languages:['en'],
+        keywords: 'uganda',
+      }
+    }
   >
     <CustomSearch/>
   </SearchProvider>,
