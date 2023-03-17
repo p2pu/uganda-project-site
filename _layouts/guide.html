@@ -4,7 +4,7 @@ layout: base
 
 <div class="container">
   <div class="row">
-    <div class="col-4 col-print-12">
+    <div class="col-md-4 col-12 col-print-12">
       <div id="guide-toc" class="d-flex flex-column sticky-top">
         {% for section in site.guide %}
         <a href="#guide-section-{{forloop.index }}">{{ section.title }}</a>
@@ -12,15 +12,15 @@ layout: base
       </div>
     </div>
 
-    <div class="col-8 col-print-12">
-      <h1 class="d-print-none" >{{page.title}}</h1>
+    <div class="col-md-8 col-12 col-print-12">
+      <h1 class="d-print-none display-4" >{{page.title}}</h1>
       <div class="guide-text" data-bs-spy="scroll" data-bs-target="#guide-toc" data-bs-offset="0" data-bs-smooth-scroll="true">
 
         <p class="d-print-none">You can also <a href="{{ site.baseurl }}/assets/uploads/facilitator-orientation.pdf" target="_blank">download</a> this page as a PDF.</p>
 
         {% for section in site.guide %}
-        <h2 class="guide-heading" id="guide-section-{{forloop.index }}">{{ section.title }} <a href="#guide-section-{{forloop.index}}">#</a></h2>
-        {{ section.content }}
+          <h1 id="guide-section-{{forloop.index }}" class="guide-heading mt-5">{{ section.title }} <a href="#guide-section-{{forloop.index}}">#</a></h1>
+          {{ section.content }}
         {% endfor %}
 
       </div>
