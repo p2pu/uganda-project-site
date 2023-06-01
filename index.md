@@ -16,7 +16,7 @@ bundles:
 
 ## Digital Skills And Inclusion Through Libraries In Uganda
 
-This project is a partnership between the National Library of Uganda, Maendeleo Foundation, EIFL Public Library Innovation Programme and Peer 2 Peer University, supported by the Belgian development agency, Enabel.
+This project is a partnership between the National Library of Uganda, Maendeleo Foundation, EIFL Public Library Innovation Programme and Peer 2 Peer University. This project is funded by Belgium through the Wehubit programme implemented by Enabel.
 
 On this website you can:
 - Sign up for existing learning circles
