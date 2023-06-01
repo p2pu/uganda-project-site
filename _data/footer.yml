@@ -22,6 +22,9 @@ logos:
   - image_url: /assets/img/logo-enabel.png
     alt_text: Enabel logo
     url: https://www.enabel.be/
+  - image_url: /assets/img/wehubit-logo.png
+    alt_text: Wehubit
+    url: https://www.wehubit.be/en
 license: Unless otherwise noted, all the materials on this site are licensed under CC BY-SA 4.0.
 about_orgs: P2PU is a U.S. 501(c)3 registered in California.
 tos: 
