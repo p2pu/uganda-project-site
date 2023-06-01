@@ -1,26 +1,24 @@
 ---
 title: "Introduction to Learning Circles & P2PU "
 ---
-- [**Slides**](http://bit.ly/p2pu-facilitator-orientation )
+
+We believe effective learning is a social activity, every person develops expertise through their own life experiences, and that people learn best when they share and connect with others. In that spirit, we work with an open community of practice so our projects can be shaped by the people who are using them. This allows us to build education as a social good rather than a commodity. Representation and collaboration is crucial for building equitable access amongst learners.
 
 ![kix.eztcp13wjzy](assets/uploads/kix.eztcp13wjzy.png)
 
-We believe effective learning is a social activity, every person develops expertise through their own life experiences, and that people learn best when they share and connect with others. In that spirit, we work with an open community of practice so our projects can be shaped by the people who are using them. This allows us to build education as a social good rather than a commodity. Representation and collaboration is crucial for building equitable access amongst learners.
-![kix.1egam1odmhwj](assets/uploads/kix.1egam1odmhwj.png)
-2,3,4,
-For assistance using this guide or questions, you can reach our team at thepeople@P2pu.org
 
-6,7 screenshots
+![kix.sj5nn2bxtr6](assets/uploads/kix.sj5nn2bxtr6.png)
+Learning circles are a free and responsive model of peer learning. Put simply, a learning circle is a facilitated group of people who meet regularly to learn about a topic together.
+
+Facilitators are a crucial part of the learning circle methodology and the reason they’re successful. The facilitator does not have to be an expert in the subject. It’s actually better that they’re not! We designed learning circles so that with a little training and some practice, anybody can facilitate.
+
+- Learning circles don’t use the traditional teacher/student format in favor of peer-to-peer learning. A facilitator doesn’t need to be an expert, just someone who wants to learn about the topic and is willing to keep things on track. With some training, anyone can be a facilitator! 
+- Most of our facilitators are library professionals running learning circles as public programming in their communities.
+- Facilitation is designed to be low-cost and flexible meaning it can support changing community needs. This makes learning circles an effective model of responsive community-based education.
 
 ## Learning circle structure 
 
-
-
-
-
-
-
-
+![kix.5veib9wq2ed6](assets/uploads/kix.5veib9wq2ed6.png)![kix.p0uxn3fs86d7](assets/uploads/kix.p0uxn3fs86d7.png)
 
 
 

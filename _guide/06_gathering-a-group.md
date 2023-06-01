@@ -19,6 +19,14 @@ Our Learning Circle Promo Kit contains flyer templates, icons, patterns, and tip
 
 To create DIY Flyers, use our [Learning Circle Promo Kit ](https://docs.google.com/presentation/d/1_-Xl0TcniaRjYuK7E8JFMekrMDM3_TLfBHAj6x61AMY/edit#slide=id.p)
 
+## Certificates & Accreditation
+
+P2PU does not officially issue any kind of accreditation or formal education certificates for participation in learning circles. Some courses offer various types of endorsement though learners often have to pay the course provider for a copy.
+A number of facilitators like to give certificates at the end of a learning circle to help connote a sense of achievement and stronger connection between the library/learning center and learner. 
+
+If you want to recognize and celebrate learners’ achievements, you can use or customize our[ ](https://docs.google.com/presentation/d/1dYfKZDTG5KBSzBsq6gxXxkjIDLbQD06athk3IN_I2AU/edit?usp=sharing)[certificate template](https://docs.google.com/presentation/d/1dYfKZDTG5KBSzBsq6gxXxkjIDLbQD06athk3IN_I2AU/edit?usp=sharing).
+
+
 **Message Templates**
 In addition to flyers and online promotion, you may want to reach out directly to your partners, neighbors, and constituents through email or social media. Below are some template messages you can use or modify to advertise your learning circle:
 Internal email template
